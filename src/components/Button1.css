@@ -1,0 +1,26 @@
+.label4 {
+  position: relative;
+  font-size: var(--desktop-p-3-aa-medium-size);
+  letter-spacing: 0.02em;
+  line-height: 16px;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: var(--desktop-h-2-semibold);
+  color: var(--shades-white);
+  text-align: center;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-5xs) var(--padding-xs);
+  background-color: var(--solid-7);
+  border-radius: var(--br-5xs);
+  box-shadow: var(--button-dark-normal);
+  height: 32px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}

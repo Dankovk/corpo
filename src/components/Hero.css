@@ -1,0 +1,29 @@
+.cover-icon {
+  position: relative;
+  width: 352px;
+  height: 352px;
+  object-fit: cover;
+  z-index: 1;
+}
+.body-parent,
+.face,
+.hero {
+  display: flex;
+  align-items: center;
+}
+.face {
+  width: 352px;
+  height: 552px;
+  flex-direction: column;
+  justify-content: flex-start;
+  position: relative;
+}
+.body-parent,
+.hero {
+  flex-direction: row;
+  justify-content: center;
+  gap: var(--gap-13xl);
+}
+.hero {
+  flex-direction: column;
+}

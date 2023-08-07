@@ -1,0 +1,12 @@
+.statenormal {
+  position: relative;
+  border-radius: var(--br-base);
+  background-color: var(--white-60);
+  box-shadow: var(--translucency-m);
+  backdrop-filter: blur(32px);
+  border: 1px solid var(--white-25);
+  box-sizing: border-box;
+  width: 160px;
+  height: 160px;
+  overflow: hidden;
+}

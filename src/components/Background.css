@@ -1,0 +1,54 @@
+.img-icon,
+.img-icon1 {
+  flex: 1;
+  max-width: 100%;
+  overflow: hidden;
+  height: 1680px;
+  object-fit: cover;
+  display: none;
+}
+.img-icon {
+  position: relative;
+  z-index: 0;
+}
+.img-icon1 {
+  top: 5040px;
+  left: 1440px;
+  z-index: 1;
+}
+.background,
+.img-icon1,
+.img-icon2 {
+  margin: 0 !important;
+  position: absolute;
+}
+.img-icon2 {
+  flex: 1;
+  top: 1680px;
+  left: 1440px;
+  max-width: 100%;
+  overflow: hidden;
+  height: 1680px;
+  object-fit: cover;
+  display: none;
+  z-index: 2;
+}
+.background {
+  align-self: stretch;
+  top: 0;
+  left: 0;
+  height: 1736px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  background-image: url(/public/background@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  z-index: 0;
+}

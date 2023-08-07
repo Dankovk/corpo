@@ -1,0 +1,23 @@
+.label1 {
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 16px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.priorityprimary-sizel-type {
+  position: relative;
+  border-radius: var(--br-5xs);
+  background-color: var(--shades-2);
+  box-shadow: var(--button-dark-normal);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-xs) var(--padding-base);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: var(--desktop-p-3-aa-medium-size);
+  color: var(--shades-white);
+  font-family: var(--desktop-h-2-semibold);
+}

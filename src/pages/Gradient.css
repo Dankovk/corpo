@@ -1,0 +1,16 @@
+.gradient {
+  position: relative;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.25),
+      rgba(255, 255, 255, 0.25)
+    ),
+    #f6f4fa;
+  backdrop-filter: blur(320px);
+  width: 100%;
+  height: 2301px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}

@@ -1,0 +1,43 @@
+.h11,
+.h41 {
+  align-self: stretch;
+  position: relative;
+}
+.h11 {
+  line-height: 80px;
+  font-weight: 600;
+  background: linear-gradient(
+    225deg,
+    #ffe800,
+    #ffb444 17.21%,
+    #ff5e86 46.37%,
+    #e24eff 71.56%,
+    #8e53ff
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.h41 {
+  font-size: var(--desktop-h-4-semibold-size);
+  line-height: 32px;
+  font-weight: 500;
+  display: none;
+}
+.hero-cta,
+.hero-title1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.hero-cta {
+  align-items: center;
+  gap: var(--gap-21xl);
+  z-index: 3;
+  text-align: center;
+  font-size: var(--desktop-h-1-semibold-size);
+  color: var(--shades-3);
+  font-family: var(--desktop-h-2-semibold);
+}

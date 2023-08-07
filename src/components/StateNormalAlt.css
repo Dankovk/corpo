@@ -1,0 +1,17 @@
+.icon-24px-user-face-tracki {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.statenormal-alt {
+  position: relative;
+  border-radius: var(--br-9xs);
+  background-color: var(--shades-white);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-9xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+}

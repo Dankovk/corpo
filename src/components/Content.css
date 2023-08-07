@@ -1,0 +1,12 @@
+.content1 {
+  height: 2301px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1;
+  text-align: center;
+  font-size: var(--desktop-h-2-semibold-size);
+  color: var(--shades-black);
+  font-family: var(--desktop-h-2-semibold);
+}

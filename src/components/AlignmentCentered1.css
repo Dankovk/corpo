@@ -1,0 +1,45 @@
+.h1,
+.h4 {
+  align-self: stretch;
+  position: relative;
+}
+.h1 {
+  line-height: 80px;
+  font-weight: 600;
+  background: linear-gradient(
+    225deg,
+    #c0ff5b,
+    #ffcf52 21.59%,
+    #ff76cf 50.66%,
+    #c566ff 76.25%,
+    #604bff
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.h4 {
+  font-size: var(--desktop-h-4-semibold-size);
+  line-height: 32px;
+  font-weight: 500;
+}
+.alignmentcentered1,
+.hero-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.hero-title {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: var(--gap-base);
+}
+.alignmentcentered1 {
+  position: relative;
+  width: 928px;
+  align-items: center;
+  gap: var(--gap-21xl);
+  text-align: center;
+  font-size: var(--desktop-h-1-semibold-size);
+  color: var(--shades-3);
+  font-family: var(--desktop-h-2-semibold);
+}

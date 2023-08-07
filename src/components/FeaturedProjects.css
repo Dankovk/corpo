@@ -1,0 +1,23 @@
+.sub {
+  align-self: stretch;
+  position: relative;
+  line-height: 56px;
+  font-weight: 600;
+}
+.case-card-parent,
+.featured-projects {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+}
+.featured-projects {
+  flex-direction: column;
+  z-index: 4;
+  text-align: center;
+  font-size: var(--desktop-h-2-semibold-size);
+  color: var(--shades-black);
+  font-family: var(--desktop-h-2-semibold);
+}

@@ -1,0 +1,16 @@
+.experts {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: 89px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+  background-image: url(/public/experts@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
